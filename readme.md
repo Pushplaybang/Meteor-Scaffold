@@ -18,3 +18,6 @@ Its a simple set of geenral purpose packages and a folder structure with some bo
 * email
 
 **NB : ** the insecure and autopublish packages have not been removed. 
+
+## License
+[MIT Licensed](https://github.com/Pushplaybang/knife/blob/master/LICENSE) , Paul van Zyl 2014
