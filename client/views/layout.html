@@ -1,0 +1,10 @@
+<!-- Main App Layout -->
+<template name="AppLayout">
+	{{ > header }}
+	<div class="content">
+			<!-- default template insert unless you use named regions -->
+			{{> yield }}
+	</div>
+
+	{{> footer }}s
+</template>

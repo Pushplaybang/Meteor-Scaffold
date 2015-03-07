@@ -1,0 +1,30 @@
+<template name="header">
+	<header>
+		<a href="/">App</a>
+		 {{> mainnav }}
+	</header>
+</template>
+
+<template name="mainnav">
+	<nav>
+		<ul>
+			{{#if currentUser}}
+				{{> appNav }}
+			{{else}}
+				{{> publicNav }}
+			{{/if}}
+		</ul>
+	</nav>
+</template>
+
+<template name="publicnav">
+	<li><a href="/">Home</a></li>
+</template>
+
+<template name="privatenav">
+	<li><a href="/">Home</a></li>
+</template>
+
+<template name="footer">
+	<p></p>
+</template>
