@@ -9,15 +9,40 @@ autopublish
 insecure
 iron:router
 accounts-password
-bengott:avatar
-percolate:velocityjs
-ian:accounts-ui-bootstrap-3
-twbs:bootstrap
-multiply:iron-router-progress
-aldeed:autoform
-aldeed:collection2
 momentjs:moment
 matteodem:easy-search
-dburles:collection-helpers
-fourseven:scss
 email
+
+# -- General
+multiply:iron-router-progress
+ian:accounts-ui-bootstrap-3
+twbs:bootstrap
+rajit:bootstrap3-datepicker
+zimme:iron-router-active
+# accounts-entry
+# bengott:avatar
+# gfk:notifications
+# alanning:roles
+# artwells:accounts-guest
+# mizzao:user-status
+
+# -- Libs and Tools
+# percolate:velocityjs
+# fourseven:scss
+# mquandalle:jade
+
+
+# -- Autoform Packages and Collection stuff.
+# aldeed:autoform
+# aldeed:autoform-bs-datepicker
+# jeremy:selectize
+# chhib:selectize-bootstrap-3
+# comerc:autoform-selectize
+# yogiben:autoform-map
+# aldeed:collection2
+# ongoworks:security
+# dburles:collection-helpers
+
+# -- Performance Things
+# meteorhacks:subs-manager
+# meteorhacks:fast-render
