@@ -4,18 +4,7 @@ Its a simple set of geenral purpose packages and a folder structure with some bo
 
 ## Included Packages
 
-* iron:router
-* accounts-password
-* bengott:avatar
-* percolate:velocityjs
-* ian:accounts-ui-bootstrap-3
-* twbs:bootstrap
-* multiply:iron-router-progress
-* aldeed:autoform
-* aldeed:collection2
-* momentjs:moment
-* matteodem:easy-search
-* email
+I've built up a package file with all of the essential packages and usual suspects for getting a project started as well as many optional ones that can be included by simply uncommenting them.  Check out this Gist for the full list : https://gist.github.com/Pushplaybang/454c2f2f7af94b7aa60a
 
 **NB : ** the insecure and autopublish packages have not been removed. 
 

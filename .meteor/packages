@@ -12,6 +12,7 @@ accounts-password
 momentjs:moment
 matteodem:easy-search
 email
+http
 
 # -- General
 multiply:iron-router-progress
