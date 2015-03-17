@@ -5,17 +5,25 @@
 # but you can also edit it by hand.
 
 meteor-platform
-autopublish
-insecure
-iron:router
-accounts-password
-momentjs:moment
-matteodem:easy-search
 email
 http
 
+# -- remove in production!
+autopublish
+insecure
+msavin:mongol
+
+# -- Utility and core extensions
+# reactive-var
+# fourseven:scss
+# mquandalle:jade
+
 # -- General
+momentjs:moment
+matteodem:easy-search
+iron:router
 multiply:iron-router-progress
+accounts-password
 ian:accounts-ui-bootstrap-3
 twbs:bootstrap
 rajit:bootstrap3-datepicker
@@ -23,15 +31,14 @@ zimme:iron-router-active
 # accounts-entry
 # bengott:avatar
 # gfk:notifications
+# meteor add chrismbeckett:toastr
 # alanning:roles
 # artwells:accounts-guest
 # mizzao:user-status
 
 # -- Libs and Tools
 # percolate:velocityjs
-# fourseven:scss
-# mquandalle:jade
-
+# underscore
 
 # -- Autoform Packages and Collection stuff.
 # aldeed:autoform
@@ -40,10 +47,11 @@ zimme:iron-router-active
 # chhib:selectize-bootstrap-3
 # comerc:autoform-selectize
 # yogiben:autoform-map
-# aldeed:collection2
 # ongoworks:security
+# aldeed:collection2
 # dburles:collection-helpers
 
 # -- Performance Things
 # meteorhacks:subs-manager
 # meteorhacks:fast-render
+# appcache
