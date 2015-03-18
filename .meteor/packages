@@ -7,6 +7,7 @@
 meteor-platform
 email
 http
+check
 
 # -- remove in production!
 autopublish
@@ -15,8 +16,10 @@ msavin:mongol
 
 # -- Utility and core extensions
 # reactive-var
+# reactive-dict
 # fourseven:scss
 # mquandalle:jade
+# spiderable
 
 # -- General
 momentjs:moment
@@ -50,6 +53,10 @@ zimme:iron-router-active
 # ongoworks:security
 # aldeed:collection2
 # dburles:collection-helpers
+
+# -- Working with NPM in your project
+# meteorhacks:npm
+# meteorhacks:async
 
 # -- Performance Things
 # meteorhacks:subs-manager
