@@ -12,7 +12,8 @@ check
 # -- remove in production!
 autopublish
 insecure
-msavin:mongol
+# msavin:mongol
+meteortoys:allthings
 
 # -- Utility and core extensions
 # reactive-var
@@ -34,7 +35,7 @@ zimme:iron-router-active
 # accounts-entry
 # bengott:avatar
 # gfk:notifications
-# meteor add chrismbeckett:toastr
+# chrismbeckett:toastr
 # alanning:roles
 # artwells:accounts-guest
 # mizzao:user-status
