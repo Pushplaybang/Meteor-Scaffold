@@ -1,6 +1,8 @@
-# A simple Meteor Project Scaffold
+# A simple Meteor Project Scaffold [Deprecated]
 
 Its a simple set of geenral purpose packages and a folder structure with some boilerplate code fro starting Meteor Projects even faster.
+
+**NB:**  while this is one way to structure a meteor project, in time I've found it to create unneccessary and confusing folder / file  structures as a project grows and will be moving to a module orientated approach for new projects.
 
 ## Included Packages
 
